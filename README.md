@@ -1,7 +1,7 @@
 # mullvad-reverse-shell
 Quick and dirty reverse shell through Mullvad
 
-### Installation
+## Installation
 
 ```bash
 profile=~/.$(basename $SHELL)rc
@@ -15,11 +15,20 @@ or
 Just add `rshell.sh` content in your zshrc, bashrc or whatever-rc
 
 
-### Usage
+## Usage
+
+### Reverse shell
 
 - Enable Mullvad connection
 - `rshell`
 
-### Clear ports
+### Expose port trough SSH
+
+It will create a container with SSH server to handle tunnel
+
+- Enable Mullvad connection
+- `rshell nat [remote_port]`
+
+## Clear ports
 
 `rshell clear`
