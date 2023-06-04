@@ -1,3 +1,5 @@
+⚠️ [Mullvad recently announced the end of port forwarding, so this tool is now useless](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/) ⚠️
+
 # mullvad-reverse-shell
 Quick and dirty reverse shell through Mullvad
 
